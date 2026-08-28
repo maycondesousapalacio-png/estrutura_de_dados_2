@@ -1,0 +1,22 @@
+==================================================
+RELATORIO DE PERFORMANCE E AUDITORIA DE TRANSACOES
+==================================================
+
+1. DESEMPENHO DA ORDENACAO
+  - Tempo gasto para ordenar 99745 registros: 
+  - Bubble Sort:  481,09 segundos.
+  - Quick Sort: 0,22 segundos.
+
+2. METRICAS FINANCEIRAS
+  - Total processado por Bandeira - Visa: R$ 6014369,00
+  - Total processado por Bandeira - Mastercard: R$ 5148345,00
+  - Maior transacao detectada: ID 3618849 - Valor: R$ 398,00
+
+3. STATUS DAS ESTRUTURAS
+  - Transacoes processadas na Fila (FIFO): 92566 transaçoes.
+  - Transacoes armazenadas na Pilha de Rejeicao: 255 transacoes.
+  - Transacoes críticas na Lista de Suspeitas: 0 transacoes.
+
+==================================================
+LISTA DE TRANSACOES SUSPEITAS (VALOR ALTO + MADRUGADA)
+==================================================
