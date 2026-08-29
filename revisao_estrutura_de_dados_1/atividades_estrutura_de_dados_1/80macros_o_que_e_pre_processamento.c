@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+#define PI 3.14159   // AQUI É NECESSÁRIO SER PRECISO COM O ESPAÇAMENTO, NÃO IGUAL AO ESCOPO DA FUNÇÃO MAIN
+
+int main(){
+
+    printf("%f\n", PI);  // NO PRÉ PROCESSAMENTO O COMPUTADOR VAI SUBSTITUIR O PI PELO VALOR RELACIONADO A ELE NO CÓDIGO INTEIRO
+
+    system("pause");
+    return 0;
+}
