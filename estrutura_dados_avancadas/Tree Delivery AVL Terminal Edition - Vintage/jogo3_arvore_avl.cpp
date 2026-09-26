@@ -127,10 +127,10 @@ Node* insertGame(Node* node, int key) {
 
         int choice = 0;
         printf("Escolha a manobra de rotacao para consertar o galho:\n");
-        printf("1 - Rotacao Simples a Direita (Caso LL)\n");
-        printf("2 - Rotacao Simples a Esquerda (Caso RR)\n");
-        printf("3 - Rotacao Dupla Esquerda-Direita (Caso LR)\n");
-        printf("4 - Rotacao Dupla Direita-Esquerda (Caso RL)\n");
+        printf("1 - Rotacao Simples a Esquerda (Caso LL)\n");
+        printf("2 - Rotacao Simples a Direita (Caso RR)\n");
+        printf("3 - Rotacao Dupla Direita-Esquerda (Caso LR)\n");
+        printf("4 - Rotacao Dupla Esquerda-Direita (Caso RL)\n");
         printf("\nSua escolha: ");
 
         while (choice < 1 || choice > 4) {
