@@ -1,7 +1,7 @@
 # Tree Delivery: AVL Terminal Edition
 
 ## Sobre o Jogo
-**Tree Delivery: AVL Terminal Edition** é um jogo educativo desenvolvido em C, criado com base em metodologias de engenharia reversa do jogo original "Tree Delivery" (desenvolvido originalmente em Unity para BST). Esta versão de terminal serve como um *upgrade* de mecânica, transferindo a responsabilidade do rebalanceamento da árvore diretamente para o jogador.
+**Tree Delivery: AVL Terminal Edition** é um jogo educativo desenvolvido em C++, criado com base em metodologias de engenharia reversa do jogo original "Tree Delivery" (desenvolvido originalmente em Unity para BST). Esta versão de terminal serve como um *upgrade* de mecânica, transferindo a responsabilidade do rebalanceamento da árvore diretamente para o jogador.
 
 ## Contexto do Projeto
 - **Disciplina:** Estruturas de Dados II
