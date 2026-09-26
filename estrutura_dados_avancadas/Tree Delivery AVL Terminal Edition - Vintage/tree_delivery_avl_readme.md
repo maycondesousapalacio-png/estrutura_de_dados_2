@@ -35,7 +35,7 @@ O jogo funciona em um *core loop* contínuo de entregas:
 - **Condição de Derrota:** Perder todas as 3 vidas disponíveis, permitindo que a estrutura entre em colapso e cause a "degradação algorítmica para O(n)".
 
 ## Tecnologias Utilizadas
-- **Linguagem:** C (Padrão ANSI)
+- **Linguagem:** C++
 - **Interface:** Terminal / Prompt de Comando (ASCII)
 - **Ambiente de Desenvolvimento Recomendado:** Dev-C++ ou Code::Blocks
 
