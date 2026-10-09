@@ -202,10 +202,10 @@ A professora apresentará dois grafos para comparação.
 
   Vértice do grafo G   Vértice correspondente no grafo H
   -------------------- -----------------------------------
-                       
-                       
-                       
-                       
+           (1,2)                  (a,b)
+           (2,3)                  (b,c)  
+           (3,4)                  (c,d)
+           (4,1)                  (d,a)
 
 > Não considere apenas a aparência dos desenhos. Grafos desenhados de
 > formas diferentes podem apresentar a mesma estrutura.
@@ -217,6 +217,20 @@ A professora apresentará dois grafos para comparação.
 -   diagrams.net.
 
 ------------------------------------------------------------------------
+
+1. Ordem e tamanho
+Ambos os grafos (G e H) possuem ordem 4 (quantidade de vértices) e tamanho 4 (quantidade de arestas).
+
+2. Graus e sequência de graus
+No grafo G, os vértices 1, 2, 3 e 4 possuem 2 ligações cada. A sequência de graus de G é (2, 2, 2, 2).
+No grafo H, os vértices a, b, c e d também possuem 2 ligações cada. A sequência de graus de H é (2, 2, 2, 2).
+
+3 e 4. Correspondência e verificação de adjacências
+
+Os grafos são isomorfos porque eles possuem a mesma ordem, o mesmo tamanho e foi possível encontrar uma correspondência exata entre os vértices que preserva perfeitamente todas as conexões (arestas) originais. Ambos representam um único ciclo de 4 vértices, apenas com nomenclaturas e ordens de desenho diferentes.
+
+<img width="1103" height="429" alt="image" src="https://github.com/user-attachments/assets/8e583df8-15a0-40e7-b939-66782584fd65" />
+
 
 ## 8. Atividade 6 - Construindo subgrafos
 
@@ -234,15 +248,17 @@ subgrafos diferentes**.
 
 **Subgrafo G1**
 
-`V1 = { }`
+`V1 = {1, 2, 3}`
 
-`E1 = { }`
+`E1 = {(1,2), (2,3)}`
+Confirmação: Os vértices 1, 2 e 3 estão contidos no conjunto V original. As arestas (1,2) e (2,3) fazem parte do conjunto E original.
 
 **Subgrafo G2**
 
-`V2 = { }`
+`V2 = {4,1}`
 
-`E2 = { }`
+`E2 = {(4,1)}`
+Confirmação: Os vértices 4 e 1 estão contidos no conjunto V original. A aresta (4,1) faz parte do conjunto E original.
 
 ### Plataformas
 
@@ -252,6 +268,13 @@ subgrafos diferentes**.
 -   Google Colab com NetworkX.
 
 ------------------------------------------------------------------------
+
+V1
+<img width="478" height="385" alt="image" src="https://github.com/user-attachments/assets/bd8a265b-623e-4f5e-b435-8a1e729c55da" />
+
+V2
+<img width="451" height="331" alt="image" src="https://github.com/user-attachments/assets/8f5f9d1c-c27e-4827-a7fe-7c8828bde58e" />
+
 
 ## 9. Atividade 7 - Desafio da sequência de graus
 
