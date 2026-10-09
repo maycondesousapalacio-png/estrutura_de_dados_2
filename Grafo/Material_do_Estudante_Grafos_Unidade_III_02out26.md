@@ -93,11 +93,11 @@ Utilize o grafo construído na Atividade 1.
 
   Vértice   Vértices adjacentes   Arestas incidentes
   --------- --------------------- --------------------
-  1                               
-  2                               
-  3                               
-  4                               
-  5                               
+  1                2,4,5             (1,2),(1,4),(1,5)
+  2                1,2                (1,2),(2,3)
+  3                2,4                (2,3),(3,4)
+  4                1,3,4              (1,4),(3,4)(4,4) 
+  5                1                  (1,5)
 
 ### Plataformas
 
@@ -141,6 +141,13 @@ Crie uma pequena rede de amizades entre essas pessoas.
 
 ------------------------------------------------------------------------
 
+V = {João, Carolina, Maria, Marco}
+E = {(João, Carolina), (João, Maria), (João, Marco), (Carolina, Maria), (Carolina, Marco), (Maria, Marco)}
+O grafo é não dirigido pois a amizade é mútua.
+
+<img width="421" height="269" alt="image" src="https://github.com/user-attachments/assets/d1fc39bc-0472-4034-a48b-466ee628c79e" />
+
+
 ## 6. Atividade 4 - Modelagem de ruas de mão única
 
 ### Situação
@@ -168,6 +175,14 @@ mão única.
 -   Google Colab com NetworkX.
 
 ------------------------------------------------------------------------
+
+V = {1, 2, 3, 4}
+E = {(1, 2), (2, 3), (3, 4), (4, 1), (1, 3)}
+Vértice 3: Grau de entrada 2, grau de saída 1
+O grafo não dirigido não se enquadra essa situação pois as ruas são de sentido único. O grafo não dirigido não representa sentido em suas arestas.
+
+<img width="464" height="302" alt="image" src="https://github.com/user-attachments/assets/242afc0e-3c48-457b-aea8-887958d91663" />
+
 
 ## 7. Atividade 5 - Desafio de isomorfismo
 
