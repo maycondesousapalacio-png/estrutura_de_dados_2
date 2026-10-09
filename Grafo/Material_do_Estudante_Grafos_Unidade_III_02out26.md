@@ -202,9 +202,9 @@ A professora apresentará dois grafos para comparação.
 
   Vértice do grafo G   Vértice correspondente no grafo H
   -------------------- -----------------------------------
-           (1,2)                  (a,b)
-           (2,3)                  (b,c)  
-           (3,4)                  (c,d)
+           (1,2)                  (a,c)
+           (2,3)                  (c,b)  
+           (3,4)                  (b,d)
            (4,1)                  (d,a)
 
 > Não considere apenas a aparência dos desenhos. Grafos desenhados de
@@ -229,7 +229,7 @@ No grafo H, os vértices a, b, c e d também possuem 2 ligações cada. A sequê
 
 Os grafos são isomorfos porque eles possuem a mesma ordem, o mesmo tamanho e foi possível encontrar uma correspondência exata entre os vértices que preserva perfeitamente todas as conexões (arestas) originais. Ambos representam um único ciclo de 4 vértices, apenas com nomenclaturas e ordens de desenho diferentes.
 
-<img width="1103" height="429" alt="image" src="https://github.com/user-attachments/assets/8e583df8-15a0-40e7-b939-66782584fd65" />
+<img width="989" height="384" alt="image" src="https://github.com/user-attachments/assets/255f71ce-ce0c-4d1e-af81-bf5da1599bac" />
 
 
 ## 8. Atividade 6 - Construindo subgrafos
