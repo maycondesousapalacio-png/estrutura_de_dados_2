@@ -74,6 +74,9 @@ Considere:
 
 ------------------------------------------------------------------------
 
+<img width="451" height="332" alt="image" src="https://github.com/user-attachments/assets/7a3ea9b4-87f4-486a-8bde-3f19fd787ec1" />
+
+
 ## 4. Atividade 2 - Incidência e adjacência
 
 Utilize o grafo construído na Atividade 1.
