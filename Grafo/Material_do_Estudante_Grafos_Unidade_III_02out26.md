@@ -293,13 +293,28 @@ indicada pela professora.
 ### Registro
 
   Vértice     Grau
-  --------- ------
-            
-            
-            
-            
+     A          6
+     B          4
+     C          4
+     D          3
+     E          3  
+     F          2
+     G          1
+     H          1
 
-**Sequência final de graus:** `( ______________________________ )`
+Conjunto de arestas E:
+E = {(A,B), (A,C), (A,D), (A,E), (A,F), (A,G), (B,C), (B,D), (B,E), (C,E), (C,H), (D,F)}
+
+**Sequência final de graus:** `(1, 1, 2, 3, 3, 4, 4, 6)`
+
+Soma dos graus:
+24
+
+Número de arestas:
+12
+
+Verificação:
+soma dos graus = 2 × número de arestas -> 24 = 2 × 12.
 
 ### Plataformas
 
@@ -308,6 +323,9 @@ indicada pela professora.
 -   Python/NetworkX no Google Colab.
 
 ------------------------------------------------------------------------
+
+<img width="1026" height="448" alt="image" src="https://github.com/user-attachments/assets/d211b065-7a2e-46a5-a1ae-9eca4da69cff" />
+
 
 ## 10. Plataformas recomendadas
 
