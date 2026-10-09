@@ -292,6 +292,7 @@ indicada pela professora.
 
 ### Registro
 
+`
   Vértice     Grau
      A          6
      B          4
@@ -301,6 +302,7 @@ indicada pela professora.
      F          2
      G          1
      H          1
+`
 
 Conjunto de arestas E:
 E = {(A,B), (A,C), (A,D), (A,E), (A,F), (A,G), (B,C), (B,D), (B,E), (C,E), (C,H), (D,F)}
