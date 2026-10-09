@@ -293,15 +293,23 @@ indicada pela professora.
 ### Registro
 
 `
-  Vértice     Grau
-     A          6
-     B          4
-     C          4
-     D          3
-     E          3  
-     F          2
-     G          1
-     H          1
+  Vértice    Grau
+  
+     A    6
+     
+     B    4
+     
+     C    4
+     
+     D    3
+     
+     E    3
+     
+     F    2
+     
+     G    1
+     
+     H    1
 `
 
 Conjunto de arestas E:
