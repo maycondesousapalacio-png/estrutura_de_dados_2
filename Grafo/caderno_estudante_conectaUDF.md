@@ -130,6 +130,8 @@ print(f"Densidade: {densidade:.2%}")
 5. `// 2` divide a soma por dois para contar cada amizade uma única vez.
 6. A fórmula final calcula a densidade.
 
+https://colab.research.google.com/drive/1nPUqzW-AyDs1SVcCnaH7x9ihLCoBgT5D?usp=sharing
+
 ## 9. Passo a passo: encontre um caminho
 Encontre um caminho de Ana até Felipe. Cada passagem por uma linha corresponde a uma aresta.
 
