@@ -21,7 +21,7 @@ Quando um recurso de navegação fica indisponível, a operação precisa ser re
 - **Tamanho:** 11 vértices e 15 arestas.
 - **Representação:** lista de adjacência (`dict` de listas), gerada a partir de uma lista de arestas pela função `construir_grafo`. Isso garante que toda aresta apareça nas listas dos dois extremos.
 
-![alt text](<Captura de tela 2026-10-30 205505-1.png>)
+<img width="842" height="562" alt="Captura de tela 2026-10-30 205505-1" src="https://github.com/user-attachments/assets/9aa9ad3e-f58e-4641-8aba-06aed1660447" />
 
 | Sigla | Aeroporto (cidade) | Vizinhos |
 |---|---|---|
