@@ -23,6 +23,8 @@ Quando um recurso de navegação fica indisponível, a operação precisa ser re
 
 <img width="842" height="562" alt="Captura de tela 2026-10-30 205505-1" src="https://github.com/user-attachments/assets/9aa9ad3e-f58e-4641-8aba-06aed1660447" />
 
+<img width="1040" height="768" alt="image" src="https://github.com/user-attachments/assets/9b36b42c-e736-42a8-9e96-11706350f1a5" />
+
 | Sigla | Aeroporto (cidade) | Vizinhos |
 |---|---|---|
 | BSB | Internacional de Brasília (Brasília) | GYN, CNF, CGB, SSA |
